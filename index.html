@@ -16,6 +16,18 @@
                   font-family: "Poppins", sans-serif;
             }
       </style>
+        <script>
+            tailwind.config = {
+              theme: {
+                extend: {
+                  colors: {
+                    clifford: '#da373d',
+                   'bike-primary': '#E76F51',
+                  }
+                }
+              }
+            }
+          </script>
 </head>
 <body class="font-popping">
       <!-- header section -->
@@ -47,7 +59,7 @@
                           </ul>
                         </div>
                         <div class="navbar-end">
-                          <a class="btn btn-active btn-error">Login</a>
+                          <a class="btn btn-active bg-bike-primary text-white">Login</a>
                         </div>
                   </div>
             </nav>
