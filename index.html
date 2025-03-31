@@ -23,10 +23,11 @@
                   colors: {
                     clifford: '#da373d',
                    'bike-primary': '#E76F51',
-                  }
-                }
-              }
-            }
+                   'bg-bike-primary': 'rgba(231,111,81/0.1)',
+                  },
+                },
+              },
+            };
           </script>
 </head>
 <body class="font-popping">
@@ -63,18 +64,18 @@
             </div>
           </nav>
           <!-- slider/Carousel -->
-          <div class="carousel w-full mt-10">
+          <div class="carousel w-full mt-10 bg-bike-primary">
             <!-- slide 1 -->
             <div id="slide1" class="carousel-item relative w-full">
-              <div class="flex">
+              <div class="flex mx-auto border">
                 <!-- text content -->
-                 <div class="space-y-7">
+                 <div class="space-y-7 flex-1">
                   <h1 class="text-6xl font-bold">Ride-on R15 V4<br>with Smile</h1>
                   <p>Amet minim mollit non deserunt ullamco <br> est sit aliqua dolor do amet sint. Velit officia consequat <br> duis enim velit mollit.</p>
                   <button class="btn text-white bg-bike-primary">Purchase</button>
                  </div>
                  <!-- image content -->
-                  <div>
+                  <div class="flex-1">
                     <img src="images/slider/bike1.png" class="w-full"/>
                   </div>
               </div>
